@@ -1,0 +1,24 @@
+* This is the precedence of the operators in python
+
+Operator	                Description
+
+**	                        Exponentiation
++x, -x, ~x	                Unary plus, Unary minus, Bitwise NOT
+*, /, //, %	                Multiplication, Division, Floor division, Modulus
++, -	                    Addition, Subtraction
+<<, >>	                    Bitwise shift operators
+&	                        Bitwise AND
+^	                        Bitwise XOR
+|	                        Bitwise OR
+==, !=, >, >=, <, <=,       is, is not, in, not in	Comparisons, Identity, Membership operators
+not	                        Logical NOT
+and	                        Logical AND
+or	                        Logical OR
+
+* When the precedence is same like addition and subtraction have the same precedence, then the given code is executed from
+left to right except for exponential form it is executed from right to left
+For example:
+1. print(5+3-6)             2. print(3**2**2)
+Output will be :            Output will be :
+(5+3)-6 that is 2           3**(2**2)that is 81
+
