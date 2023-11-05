@@ -1,0 +1,57 @@
+* Lists are collection of data in a single variable.
+   For Example,
+   Alphabets = ['a', 'b', 'c', 'd']
+
+* Lists are mutable, ordered and allow duplicate values.
+
+* In Lists, we can use multiple data types.
+   For Example,
+   list = ['P', "SuvarnaShiva", 3, 6.0, 7+14j]
+
+* The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+
+* Reverse and Reversed method do print the given variable in reverse but they are different. Reveres method changes the
+  given list like, l = [3,6,9]                whereas, reversed method does not change the list and returns as an
+                   print(l.reverse())         iterable object where you can use it with anything like tuples,string,sets.
+                   # Output: [9,6,3]          Like, l = [3,6,9]
+                                                    new_l = reversed(list(l))
+                                                    print(new_l)
+                                                    # Output: [9,6,3]
+
+* By default, pop method removes only the last element. While using pop method you have to give the range by
+  index position.
+
+* And for taking multiple inputs from user we use lists as follows:
+  We can use two methods: Split Method, List Comprehension
+  Split method:
+  Here, we use map for iteration instead of loops(which takes more steps than map)
+  a = list(map(int,input("Enter your lucky numbers:").split()))
+  print("My lucky Numbers are:", a)
+  List Comprehension:
+  b = [int(b) for b in input("The numbers of the Winners are:").split()]
+  print("The Lottery Winners are:", b)
+
+* Sorting is case sensitive, uppercase get printed first along lowercase.
+
+* To print the sorted list as it is, then we have to use thislist.sort(key = str.lower) (Here, thislist is a list).
+
+* Copying lists we have to use the builtin functions otherwise the changes happened to the parent list will reflect in
+  child list as well. For more details, check the code in lists class file. We can use two built-in functions:
+  a. Make a copy of a list with the copy() method.    b. Make a copy of a list with the list() method.
+
+* Python has a set of built-in methods that you can use on lists.
+
+    Method	        Description
+    append()	    Adds an element at the end of the list
+    clear()	        Removes all the elements from the list
+    copy()	        Returns a copy of the list
+    count()	        Returns the number of elements with the specified value
+    extend()	    Add the elements of a list (or any iterable), to the end of the current list
+    index()	        Returns the index of the first element with the specified value
+    insert()	    Adds an element at the specified position
+    pop()	        Removes the element at the specified position
+    remove()	    Removes the item with the specified value
+    reverse()	    Reverses the order of the list
+    sort()	        Sorts the list
+
+*

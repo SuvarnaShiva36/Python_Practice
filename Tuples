@@ -1,0 +1,6 @@
+* Tuples are list of values enclosed in round brackets.
+  For Example, tuple = ("PadmaSree", "SuvarnaShiva", "Shashi Kala").
+
+* Tuples are ordered, immutable and allows duplicate values.
+
+* 
